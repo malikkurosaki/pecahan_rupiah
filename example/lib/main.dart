@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
           body: SafeArea(
             child: Column(
               children: [
+                Text(Pecahan.rupiah(value: 2000000)),
                 Text(Pecahan.rupiah(value: 2000000, withRp: true))
               ],
             ),
